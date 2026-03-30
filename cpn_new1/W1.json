@@ -1,0 +1,188 @@
+{
+  "colorSets": [
+    "colset UNIT = unit;"
+  ],
+  "places": [
+    {
+      "name": "p_6",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "source",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "p_3",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "p_5",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "sink",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "p_4",
+      "colorSet": "UNIT"
+    }
+  ],
+  "transitions": [
+    {
+      "name": "skip_4@SILENT",
+      "inArcs": [
+        {
+          "place": "p_5",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_4",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "skip_6@SILENT",
+      "inArcs": [
+        {
+          "place": "p_6",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_4",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "tau_1@SILENT",
+      "inArcs": [
+        {
+          "place": "source",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "E1_turn_on_alert_W1",
+      "inArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_5",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "tau_2@SILENT",
+      "inArcs": [
+        {
+          "place": "p_4",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "sink",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "skip_3@SILENT",
+      "inArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_5",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "turn_on",
+      "inArcs": [
+        {
+          "place": "p_5",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_4",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "skip_5@SILENT",
+      "inArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_6",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "E2_dim_alert_W1",
+      "inArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_6",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "dim",
+      "inArcs": [
+        {
+          "place": "p_6",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_4",
+          "expression": ""
+        }
+      ]
+    }
+  ],
+  "initialMarking": {
+    "source": {
+      "tokens": []
+    }
+  }
+}

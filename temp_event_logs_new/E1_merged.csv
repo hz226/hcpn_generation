@@ -1,0 +1,420 @@
+device,type,c,a,t,_t_sort,a_cmd,a_i,a_s,c_a,c_i,c_s,d,d_p,d_s,d_t,id,m_i,s_post,s_pre,sid,val
+E1,sensor,1,motion_detected,2026-01-13 18:00:00,,,,motion_detected,,,1,E1,,,,,,,,E1_motion,1
+E1,sensor,1,plate_captured,2026-01-13 18:00:03,,,,plate_captured,,,1,E1,,,,,,,,E1_camera,AAA101
+E1,actuator,1,turn_on,2026-01-13 18:00:06,,turn_on,,,1,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,2,E1_turn_on_alert_E2,2026-01-13 18:00:12,,,E1_turn_on_alert_E2,,,2,,,E1,E1,E2,,motion detected,,,,
+E1,sensor,3,motion_detected,2026-01-13 18:00:56,,,,motion_detected,,,3,E1,,,,,,,,E1_motion,1
+E1,sensor,3,plate_captured,2026-01-13 18:00:57,,,,plate_captured,,,3,E1,,,,,,,,E1_camera,AAA102
+E1,sensor,4,motion_detected,2026-01-13 18:01:26,,,,motion_detected,,,4,E1,,,,,,,,E1_motion,1
+E1,sensor,4,plate_captured,2026-01-13 18:01:28,,,,plate_captured,,,4,E1,,,,,,,,E1_camera,AAA103
+E1,sensor,5,motion_detected,2026-01-13 18:01:56,,,,motion_detected,,,5,E1,,,,,,,,E1_motion,1
+E1,sensor,5,plate_captured,2026-01-13 18:01:59,,,,plate_captured,,,5,E1,,,,,,,,E1_camera,AAA104
+E1,sensor,6,motion_detected,2026-01-13 18:02:26,,,,motion_detected,,,6,E1,,,,,,,,E1_motion,1
+E1,sensor,6,plate_captured,2026-01-13 18:02:28,,,,plate_captured,,,6,E1,,,,,,,,E1_camera,AAA105
+E1,sensor,7,motion_detected,2026-01-13 18:02:56,,,,motion_detected,,,7,E1,,,,,,,,E1_motion,1
+E1,sensor,7,plate_captured,2026-01-13 18:02:59,,,,plate_captured,,,7,E1,,,,,,,,E1_camera,AAA106
+E1,sensor,8,motion_detected,2026-01-13 18:03:26,,,,motion_detected,,,8,E1,,,,,,,,E1_motion,1
+E1,sensor,8,plate_captured,2026-01-13 18:03:28,,,,plate_captured,,,8,E1,,,,,,,,E1_camera,AAA107
+E1,sensor,9,motion_detected,2026-01-13 18:03:56,,,,motion_detected,,,9,E1,,,,,,,,E1_motion,1
+E1,sensor,9,plate_captured,2026-01-13 18:04:00,,,,plate_captured,,,9,E1,,,,,,,,E1_camera,AAA108
+E1,sensor,10,motion_detected,2026-01-13 18:04:26,,,,motion_detected,,,10,E1,,,,,,,,E1_motion,1
+E1,sensor,10,plate_captured,2026-01-13 18:04:27,,,,plate_captured,,,10,E1,,,,,,,,E1_camera,AAA109
+E1,sensor,11,motion_detected,2026-01-13 18:04:56,,,,motion_detected,,,11,E1,,,,,,,,E1_motion,1
+E1,sensor,11,plate_captured,2026-01-13 18:04:58,,,,plate_captured,,,11,E1,,,,,,,,E1_camera,AAA110
+E1,sensor,12,motion_detected,2026-01-13 18:05:26,,,,motion_detected,,,12,E1,,,,,,,,E1_motion,1
+E1,sensor,12,plate_captured,2026-01-13 18:05:29,,,,plate_captured,,,12,E1,,,,,,,,E1_camera,AAA111
+E1,sensor,13,motion_detected,2026-01-13 18:05:56,,,,motion_detected,,,13,E1,,,,,,,,E1_motion,1
+E1,sensor,13,plate_captured,2026-01-13 18:05:59,,,,plate_captured,,,13,E1,,,,,,,,E1_camera,AAA112
+E1,sensor,14,motion_detected,2026-01-13 18:06:26,,,,motion_detected,,,14,E1,,,,,,,,E1_motion,1
+E1,sensor,14,plate_captured,2026-01-13 18:06:27,,,,plate_captured,,,14,E1,,,,,,,,E1_camera,AAA113
+E1,sensor,15,motion_detected,2026-01-13 18:06:56,,,,motion_detected,,,15,E1,,,,,,,,E1_motion,1
+E1,sensor,15,plate_captured,2026-01-13 18:07:00,,,,plate_captured,,,15,E1,,,,,,,,E1_camera,AAA114
+E1,sensor,16,motion_detected,2026-01-13 18:07:26,,,,motion_detected,,,16,E1,,,,,,,,E1_motion,1
+E1,sensor,16,plate_captured,2026-01-13 18:07:29,,,,plate_captured,,,16,E1,,,,,,,,E1_camera,AAA115
+E1,sensor,17,motion_detected,2026-01-13 18:07:56,,,,motion_detected,,,17,E1,,,,,,,,E1_motion,1
+E1,sensor,17,plate_captured,2026-01-13 18:07:58,,,,plate_captured,,,17,E1,,,,,,,,E1_camera,AAA116
+E1,sensor,18,motion_detected,2026-01-13 18:08:26,,,,motion_detected,,,18,E1,,,,,,,,E1_motion,1
+E1,sensor,19,motion_detected,2026-01-13 18:08:56,,,,motion_detected,,,19,E1,,,,,,,,E1_motion,1
+E1,sensor,19,plate_captured,2026-01-13 18:08:57,,,,plate_captured,,,19,E1,,,,,,,,E1_camera,AAA118
+E1,sensor,20,motion_detected,2026-01-13 18:09:26,,,,motion_detected,,,20,E1,,,,,,,,E1_motion,1
+E1,sensor,20,plate_captured,2026-01-13 18:09:29,,,,plate_captured,,,20,E1,,,,,,,,E1_camera,AAA119
+E1,sensor,21,motion_detected,2026-01-13 18:09:56,,,,motion_detected,,,21,E1,,,,,,,,E1_motion,1
+E1,sensor,21,plate_captured,2026-01-13 18:09:57,,,,plate_captured,,,21,E1,,,,,,,,E1_camera,AAA120
+E1,sensor,22,motion_detected,2026-01-13 18:10:26,,,,motion_detected,,,22,E1,,,,,,,,E1_motion,1
+E1,sensor,22,plate_captured,2026-01-13 18:10:30,,,,plate_captured,,,22,E1,,,,,,,,E1_camera,AAA121
+E1,sensor,23,motion_detected,2026-01-13 18:10:56,,,,motion_detected,,,23,E1,,,,,,,,E1_motion,1
+E1,sensor,23,plate_captured,2026-01-13 18:11:00,,,,plate_captured,,,23,E1,,,,,,,,E1_camera,AAA122
+E1,sensor,24,motion_detected,2026-01-13 18:11:26,,,,motion_detected,,,24,E1,,,,,,,,E1_motion,1
+E1,sensor,24,plate_captured,2026-01-13 18:11:28,,,,plate_captured,,,24,E1,,,,,,,,E1_camera,AAA123
+E1,sensor,25,motion_detected,2026-01-13 18:11:56,,,,motion_detected,,,25,E1,,,,,,,,E1_motion,1
+E1,sensor,25,plate_captured,2026-01-13 18:12:00,,,,plate_captured,,,25,E1,,,,,,,,E1_camera,AAA124
+E1,sensor,26,motion_detected,2026-01-13 18:12:26,,,,motion_detected,,,26,E1,,,,,,,,E1_motion,1
+E1,sensor,26,plate_captured,2026-01-13 18:12:28,,,,plate_captured,,,26,E1,,,,,,,,E1_camera,AAA125
+E1,sensor,27,motion_detected,2026-01-13 18:12:56,,,,motion_detected,,,27,E1,,,,,,,,E1_motion,1
+E1,sensor,27,plate_captured,2026-01-13 18:12:57,,,,plate_captured,,,27,E1,,,,,,,,E1_camera,AAA126
+E1,sensor,28,motion_detected,2026-01-13 18:13:26,,,,motion_detected,,,28,E1,,,,,,,,E1_motion,1
+E1,sensor,28,plate_captured,2026-01-13 18:13:29,,,,plate_captured,,,28,E1,,,,,,,,E1_camera,AAA127
+E1,sensor,29,motion_detected,2026-01-13 18:13:56,,,,motion_detected,,,29,E1,,,,,,,,E1_motion,1
+E1,sensor,29,plate_captured,2026-01-13 18:13:59,,,,plate_captured,,,29,E1,,,,,,,,E1_camera,AAA128
+E1,sensor,30,motion_detected,2026-01-13 18:14:26,,,,motion_detected,,,30,E1,,,,,,,,E1_motion,1
+E1,sensor,30,plate_captured,2026-01-13 18:14:29,,,,plate_captured,,,30,E1,,,,,,,,E1_camera,AAA129
+E1,sensor,31,plate_captured,2026-01-13 18:15:00,,,,plate_captured,,,31,E1,,,,,,,,E1_camera,AAA130
+E1,sensor,32,motion_detected,2026-01-13 18:15:26,,,,motion_detected,,,32,E1,,,,,,,,E1_motion,1
+E1,sensor,32,plate_captured,2026-01-13 18:15:29,,,,plate_captured,,,32,E1,,,,,,,,E1_camera,AAA131
+E1,sensor,33,motion_detected,2026-01-13 18:15:56,,,,motion_detected,,,33,E1,,,,,,,,E1_motion,1
+E1,sensor,33,plate_captured,2026-01-13 18:15:57,,,,plate_captured,,,33,E1,,,,,,,,E1_camera,AAA132
+E1,sensor,34,motion_detected,2026-01-13 18:16:26,,,,motion_detected,,,34,E1,,,,,,,,E1_motion,1
+E1,sensor,34,plate_captured,2026-01-13 18:16:30,,,,plate_captured,,,34,E1,,,,,,,,E1_camera,AAA133
+E1,sensor,35,motion_detected,2026-01-13 18:16:56,,,,motion_detected,,,35,E1,,,,,,,,E1_motion,1
+E1,sensor,35,plate_captured,2026-01-13 18:16:58,,,,plate_captured,,,35,E1,,,,,,,,E1_camera,AAA134
+E1,sensor,36,motion_detected,2026-01-13 18:17:26,,,,motion_detected,,,36,E1,,,,,,,,E1_motion,1
+E1,sensor,36,plate_captured,2026-01-13 18:17:27,,,,plate_captured,,,36,E1,,,,,,,,E1_camera,AAA135
+E1,sensor,37,motion_detected,2026-01-13 18:17:56,,,,motion_detected,,,37,E1,,,,,,,,E1_motion,1
+E1,sensor,37,plate_captured,2026-01-13 18:17:57,,,,plate_captured,,,37,E1,,,,,,,,E1_camera,AAA136
+E1,sensor,38,motion_detected,2026-01-13 18:18:26,,,,motion_detected,,,38,E1,,,,,,,,E1_motion,1
+E1,sensor,38,plate_captured,2026-01-13 18:18:30,,,,plate_captured,,,38,E1,,,,,,,,E1_camera,AAA137
+E1,sensor,39,motion_detected,2026-01-13 18:18:56,,,,motion_detected,,,39,E1,,,,,,,,E1_motion,1
+E1,sensor,39,plate_captured,2026-01-13 18:18:57,,,,plate_captured,,,39,E1,,,,,,,,E1_camera,AAA138
+E1,sensor,40,motion_detected,2026-01-13 18:19:26,,,,motion_detected,,,40,E1,,,,,,,,E1_motion,1
+E1,sensor,40,plate_captured,2026-01-13 18:19:27,,,,plate_captured,,,40,E1,,,,,,,,E1_camera,AAA139
+E1,sensor,41,motion_detected,2026-01-13 18:19:56,,,,motion_detected,,,41,E1,,,,,,,,E1_motion,1
+E1,sensor,41,plate_captured,2026-01-13 18:19:58,,,,plate_captured,,,41,E1,,,,,,,,E1_camera,AAA140
+E1,sensor,42,motion_detected,2026-01-13 18:20:26,,,,motion_detected,,,42,E1,,,,,,,,E1_motion,1
+E1,sensor,42,plate_captured,2026-01-13 18:20:27,,,,plate_captured,,,42,E1,,,,,,,,E1_camera,AAA141
+E1,sensor,43,motion_detected,2026-01-13 18:20:56,,,,motion_detected,,,43,E1,,,,,,,,E1_motion,1
+E1,sensor,43,plate_captured,2026-01-13 18:20:57,,,,plate_captured,,,43,E1,,,,,,,,E1_camera,AAA142
+E1,sensor,44,motion_detected,2026-01-13 18:21:26,,,,motion_detected,,,44,E1,,,,,,,,E1_motion,1
+E1,sensor,44,plate_captured,2026-01-13 18:21:30,,,,plate_captured,,,44,E1,,,,,,,,E1_camera,AAA143
+E1,sensor,45,motion_detected,2026-01-13 18:21:56,,,,motion_detected,,,45,E1,,,,,,,,E1_motion,1
+E1,sensor,45,plate_captured,2026-01-13 18:22:00,,,,plate_captured,,,45,E1,,,,,,,,E1_camera,AAA144
+E1,sensor,46,motion_detected,2026-01-13 18:22:26,,,,motion_detected,,,46,E1,,,,,,,,E1_motion,1
+E1,sensor,46,plate_captured,2026-01-13 18:22:30,,,,plate_captured,,,46,E1,,,,,,,,E1_camera,AAA145
+E1,sensor,47,motion_detected,2026-01-13 18:22:56,,,,motion_detected,,,47,E1,,,,,,,,E1_motion,1
+E1,sensor,47,plate_captured,2026-01-13 18:22:59,,,,plate_captured,,,47,E1,,,,,,,,E1_camera,AAA146
+E1,sensor,48,motion_detected,2026-01-13 18:23:26,,,,motion_detected,,,48,E1,,,,,,,,E1_motion,1
+E1,sensor,48,plate_captured,2026-01-13 18:23:30,,,,plate_captured,,,48,E1,,,,,,,,E1_camera,AAA147
+E1,sensor,49,motion_detected,2026-01-13 18:23:56,,,,motion_detected,,,49,E1,,,,,,,,E1_motion,1
+E1,sensor,50,motion_detected,2026-01-13 18:24:26,,,,motion_detected,,,50,E1,,,,,,,,E1_motion,1
+E1,sensor,50,plate_captured,2026-01-13 18:24:30,,,,plate_captured,,,50,E1,,,,,,,,E1_camera,AAA149
+E1,sensor,51,motion_detected,2026-01-13 18:24:56,,,,motion_detected,,,51,E1,,,,,,,,E1_motion,1
+E1,sensor,51,plate_captured,2026-01-13 18:24:57,,,,plate_captured,,,51,E1,,,,,,,,E1_camera,AAA150
+E1,interaction,52,E2_dim_alert_E1,2026-01-13 18:54:38,,,E2_dim_alert_E1,,,52,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,52,dim,2026-01-13 18:54:40,,dim,,,52,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,53,plate_captured,2026-01-13 22:00:04,,,,plate_captured,,,53,E1,,,,,,,,E1_camera,BBB201
+E1,actuator,53,turn_on,2026-01-13 22:00:07,,turn_on,,,53,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,53,E1_turn_on_alert_E2,2026-01-13 22:00:10,,,E1_turn_on_alert_E2,,,53,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,53,E1_turn_on_alert_W1,2026-01-13 22:00:12,,,E1_turn_on_alert_W1,,,53,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,54,E2_dim_alert_E1,2026-01-13 22:05:20,,,E2_dim_alert_E1,,,54,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,54,dim,2026-01-13 22:05:23,,dim,,,54,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,55,motion_detected,2026-01-14 00:00:00,,,,motion_detected,,,55,E1,,,,,,,,E1_motion,1
+E1,sensor,55,plate_captured,2026-01-14 00:00:04,,,,plate_captured,,,55,E1,,,,,,,,E1_camera,BBB202
+E1,actuator,55,turn_on,2026-01-14 00:00:06,,turn_on,,,55,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,55,E1_turn_on_alert_E2,2026-01-14 00:00:09,,,E1_turn_on_alert_E2,,,55,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,55,E1_turn_on_alert_W1,2026-01-14 00:00:13,,,E1_turn_on_alert_W1,,,55,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,56,E2_dim_alert_E1,2026-01-14 00:05:11,,,E2_dim_alert_E1,,,56,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,56,dim,2026-01-14 00:05:12,,dim,,,56,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,57,motion_detected,2026-01-14 02:00:00,,,,motion_detected,,,57,E1,,,,,,,,E1_motion,1
+E1,sensor,57,plate_captured,2026-01-14 02:00:03,,,,plate_captured,,,57,E1,,,,,,,,E1_camera,BBB203
+E1,actuator,57,turn_on,2026-01-14 02:00:07,,turn_on,,,57,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,57,E1_turn_on_alert_E2,2026-01-14 02:00:08,,,E1_turn_on_alert_E2,,,57,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,57,E1_turn_on_alert_W1,2026-01-14 02:00:10,,,E1_turn_on_alert_W1,,,57,,,E1,E1,W1,,motion detected,,,,
+E1,actuator,58,dim,2026-01-14 02:05:21,,dim,,,58,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,59,motion_detected,2026-01-14 04:00:00,,,,motion_detected,,,59,E1,,,,,,,,E1_motion,1
+E1,sensor,59,plate_captured,2026-01-14 04:00:01,,,,plate_captured,,,59,E1,,,,,,,,E1_camera,BBB204
+E1,actuator,59,turn_on,2026-01-14 04:00:03,,turn_on,,,59,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,59,E1_turn_on_alert_E2,2026-01-14 04:00:05,,,E1_turn_on_alert_E2,,,59,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,60,E2_dim_alert_E1,2026-01-14 04:05:10,,,E2_dim_alert_E1,,,60,,,E1,E2,E1,,motion detected,,,,
+E1,sensor,61,motion_detected,2026-01-14 06:00:00,,,,motion_detected,,,61,E1,,,,,,,,E1_motion,1
+E1,sensor,61,plate_captured,2026-01-14 06:00:01,,,,plate_captured,,,61,E1,,,,,,,,E1_camera,BBB205
+E1,actuator,61,turn_on,2026-01-14 06:00:04,,turn_on,,,61,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,62,E2_dim_alert_E1,2026-01-14 06:05:15,,,E2_dim_alert_E1,,,62,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,62,dim,2026-01-14 06:05:18,,dim,,,62,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,63,motion_detected,2026-01-14 08:00:00,,,,motion_detected,,,63,E1,,,,,,,,E1_motion,1
+E1,sensor,63,plate_captured,2026-01-14 08:00:01,,,,plate_captured,,,63,E1,,,,,,,,E1_camera,BBB206
+E1,actuator,63,turn_on,2026-01-14 08:00:05,,turn_on,,,63,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,64,E1_turn_on_alert_W1,2026-01-14 08:00:10,,,E1_turn_on_alert_W1,,,64,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,65,E2_dim_alert_E1,2026-01-14 08:05:12,,,E2_dim_alert_E1,,,65,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,65,dim,2026-01-14 08:05:16,,dim,,,65,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,66,motion_detected,2026-01-14 10:00:00,,,,motion_detected,,,66,E1,,,,,,,,E1_motion,1
+E1,sensor,66,plate_captured,2026-01-14 10:00:04,,,,plate_captured,,,66,E1,,,,,,,,E1_camera,BBB207
+E1,actuator,66,turn_on,2026-01-14 10:00:06,,turn_on,,,66,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,66,E1_turn_on_alert_E2,2026-01-14 10:00:08,,,E1_turn_on_alert_E2,,,66,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,66,E1_turn_on_alert_W1,2026-01-14 10:00:10,,,E1_turn_on_alert_W1,,,66,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,67,E2_dim_alert_E1,2026-01-14 10:05:17,,,E2_dim_alert_E1,,,67,,,E1,E2,E1,,motion detected,,,,
+E1,sensor,68,motion_detected,2026-01-14 12:00:00,,,,motion_detected,,,68,E1,,,,,,,,E1_motion,1
+E1,sensor,68,plate_captured,2026-01-14 12:00:02,,,,plate_captured,,,68,E1,,,,,,,,E1_camera,BBB208
+E1,actuator,68,turn_on,2026-01-14 12:00:04,,turn_on,,,68,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,68,E1_turn_on_alert_E2,2026-01-14 12:00:05,,,E1_turn_on_alert_E2,,,68,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,68,E1_turn_on_alert_W1,2026-01-14 12:00:09,,,E1_turn_on_alert_W1,,,68,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,69,E2_dim_alert_E1,2026-01-14 12:05:14,,,E2_dim_alert_E1,,,69,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,69,dim,2026-01-14 12:05:17,,dim,,,69,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,70,motion_detected,2026-01-14 14:00:00,,,,motion_detected,,,70,E1,,,,,,,,E1_motion,1
+E1,sensor,70,plate_captured,2026-01-14 14:00:03,,,,plate_captured,,,70,E1,,,,,,,,E1_camera,BBB209
+E1,actuator,70,turn_on,2026-01-14 14:00:06,,turn_on,,,70,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,70,E1_turn_on_alert_W1,2026-01-14 14:00:08,,,E1_turn_on_alert_W1,,,70,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,71,E2_dim_alert_E1,2026-01-14 14:05:16,,,E2_dim_alert_E1,,,71,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,71,dim,2026-01-14 14:05:17,,dim,,,71,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,72,motion_detected,2026-01-14 16:00:00,,,,motion_detected,,,72,E1,,,,,,,,E1_motion,1
+E1,sensor,72,plate_captured,2026-01-14 16:00:04,,,,plate_captured,,,72,E1,,,,,,,,E1_camera,BBB210
+E1,actuator,72,turn_on,2026-01-14 16:00:05,,turn_on,,,72,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,72,E1_turn_on_alert_E2,2026-01-14 16:00:08,,,E1_turn_on_alert_E2,,,72,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,72,E1_turn_on_alert_W1,2026-01-14 16:00:09,,,E1_turn_on_alert_W1,,,72,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,73,E2_dim_alert_E1,2026-01-14 16:05:16,,,E2_dim_alert_E1,,,73,,,E1,E2,E1,,motion detected,,,,
+E1,sensor,74,motion_detected,2026-01-14 18:00:00,,,,motion_detected,,,74,E1,,,,,,,,E1_motion,1
+E1,sensor,74,plate_captured,2026-01-14 18:00:01,,,,plate_captured,,,74,E1,,,,,,,,E1_camera,BBB211
+E1,actuator,74,turn_on,2026-01-14 18:00:04,,turn_on,,,74,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,74,E1_turn_on_alert_E2,2026-01-14 18:00:07,,,E1_turn_on_alert_E2,,,74,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,74,E1_turn_on_alert_W1,2026-01-14 18:00:09,,,E1_turn_on_alert_W1,,,74,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,75,E2_dim_alert_E1,2026-01-14 18:05:22,,,E2_dim_alert_E1,,,75,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,75,dim,2026-01-14 18:05:23,,dim,,,75,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,76,motion_detected,2026-01-14 20:00:00,,,,motion_detected,,,76,E1,,,,,,,,E1_motion,1
+E1,sensor,76,plate_captured,2026-01-14 20:00:01,,,,plate_captured,,,76,E1,,,,,,,,E1_camera,BBB212
+E1,actuator,76,turn_on,2026-01-14 20:00:02,,turn_on,,,76,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,76,E1_turn_on_alert_E2,2026-01-14 20:00:04,,,E1_turn_on_alert_E2,,,76,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,77,E2_dim_alert_E1,2026-01-14 20:05:12,,,E2_dim_alert_E1,,,77,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,77,dim,2026-01-14 20:05:15,,dim,,,77,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,78,motion_detected,2026-01-14 22:00:00,,,,motion_detected,,,78,E1,,,,,,,,E1_motion,1
+E1,sensor,78,plate_captured,2026-01-14 22:00:03,,,,plate_captured,,,78,E1,,,,,,,,E1_camera,BBB213
+E1,actuator,78,turn_on,2026-01-14 22:00:07,,turn_on,,,78,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,79,E1_turn_on_alert_W1,2026-01-14 22:00:12,,,E1_turn_on_alert_W1,,,79,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,80,E2_dim_alert_E1,2026-01-14 22:05:10,,,E2_dim_alert_E1,,,80,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,80,dim,2026-01-14 22:05:11,,dim,,,80,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,81,motion_detected,2026-01-15 00:00:00,,,,motion_detected,,,81,E1,,,,,,,,E1_motion,1
+E1,sensor,81,plate_captured,2026-01-15 00:00:01,,,,plate_captured,,,81,E1,,,,,,,,E1_camera,BBB214
+E1,actuator,81,turn_on,2026-01-15 00:00:04,,turn_on,,,81,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,81,E1_turn_on_alert_E2,2026-01-15 00:00:05,,,E1_turn_on_alert_E2,,,81,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,81,E1_turn_on_alert_W1,2026-01-15 00:00:08,,,E1_turn_on_alert_W1,,,81,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,82,E2_dim_alert_E1,2026-01-15 00:05:12,,,E2_dim_alert_E1,,,82,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,82,dim,2026-01-15 00:05:13,,dim,,,82,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,83,motion_detected,2026-01-15 02:00:00,,,,motion_detected,,,83,E1,,,,,,,,E1_motion,1
+E1,sensor,83,plate_captured,2026-01-15 02:00:04,,,,plate_captured,,,83,E1,,,,,,,,E1_camera,BBB215
+E1,actuator,83,turn_on,2026-01-15 02:00:05,,turn_on,,,83,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,83,E1_turn_on_alert_E2,2026-01-15 02:00:06,,,E1_turn_on_alert_E2,,,83,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,83,E1_turn_on_alert_W1,2026-01-15 02:00:07,,,E1_turn_on_alert_W1,,,83,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,84,E2_dim_alert_E1,2026-01-15 02:05:21,,,E2_dim_alert_E1,,,84,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,84,dim,2026-01-15 02:05:23,,dim,,,84,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,85,motion_detected,2026-01-15 04:00:00,,,,motion_detected,,,85,E1,,,,,,,,E1_motion,1
+E1,sensor,85,plate_captured,2026-01-15 04:00:04,,,,plate_captured,,,85,E1,,,,,,,,E1_camera,BBB216
+E1,actuator,85,turn_on,2026-01-15 04:00:07,,turn_on,,,85,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,85,E1_turn_on_alert_E2,2026-01-15 04:00:10,,,E1_turn_on_alert_E2,,,85,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,86,E2_dim_alert_E1,2026-01-15 04:05:10,,,E2_dim_alert_E1,,,86,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,86,dim,2026-01-15 04:05:11,,dim,,,86,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,87,motion_detected,2026-01-15 06:00:00,,,,motion_detected,,,87,E1,,,,,,,,E1_motion,1
+E1,sensor,87,plate_captured,2026-01-15 06:00:04,,,,plate_captured,,,87,E1,,,,,,,,E1_camera,BBB217
+E1,actuator,87,turn_on,2026-01-15 06:00:08,,turn_on,,,87,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,87,E1_turn_on_alert_E2,2026-01-15 06:00:10,,,E1_turn_on_alert_E2,,,87,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,87,E1_turn_on_alert_W1,2026-01-15 06:00:11,,,E1_turn_on_alert_W1,,,87,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,88,E2_dim_alert_E1,2026-01-15 06:05:20,,,E2_dim_alert_E1,,,88,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,88,dim,2026-01-15 06:05:24,,dim,,,88,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,89,motion_detected,2026-01-15 08:00:00,,,,motion_detected,,,89,E1,,,,,,,,E1_motion,1
+E1,sensor,89,plate_captured,2026-01-15 08:00:02,,,,plate_captured,,,89,E1,,,,,,,,E1_camera,BBB218
+E1,actuator,89,turn_on,2026-01-15 08:00:04,,turn_on,,,89,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,89,E1_turn_on_alert_E2,2026-01-15 08:00:06,,,E1_turn_on_alert_E2,,,89,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,90,E2_dim_alert_E1,2026-01-15 08:05:11,,,E2_dim_alert_E1,,,90,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,90,dim,2026-01-15 08:05:14,,dim,,,90,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,91,motion_detected,2026-01-15 10:00:00,,,,motion_detected,,,91,E1,,,,,,,,E1_motion,1
+E1,sensor,91,plate_captured,2026-01-15 10:00:02,,,,plate_captured,,,91,E1,,,,,,,,E1_camera,BBB219
+E1,interaction,92,E1_turn_on_alert_E2,2026-01-15 10:00:09,,,E1_turn_on_alert_E2,,,92,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,92,E1_turn_on_alert_W1,2026-01-15 10:00:13,,,E1_turn_on_alert_W1,,,92,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,93,E2_dim_alert_E1,2026-01-15 10:05:19,,,E2_dim_alert_E1,,,93,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,93,dim,2026-01-15 10:05:21,,dim,,,93,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,94,plate_captured,2026-01-15 12:00:04,,,,plate_captured,,,94,E1,,,,,,,,E1_camera,BBB220
+E1,actuator,94,turn_on,2026-01-15 12:00:08,,turn_on,,,94,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,94,E1_turn_on_alert_E2,2026-01-15 12:00:09,,,E1_turn_on_alert_E2,,,94,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,94,E1_turn_on_alert_W1,2026-01-15 12:00:10,,,E1_turn_on_alert_W1,,,94,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,95,E2_dim_alert_E1,2026-01-15 12:05:17,,,E2_dim_alert_E1,,,95,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,95,dim,2026-01-15 12:05:20,,dim,,,95,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,96,motion_detected,2026-01-15 14:00:00,,,,motion_detected,,,96,E1,,,,,,,,E1_motion,1
+E1,sensor,96,plate_captured,2026-01-15 14:00:03,,,,plate_captured,,,96,E1,,,,,,,,E1_camera,BBB221
+E1,actuator,96,turn_on,2026-01-15 14:00:07,,turn_on,,,96,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,96,E1_turn_on_alert_E2,2026-01-15 14:00:09,,,E1_turn_on_alert_E2,,,96,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,96,E1_turn_on_alert_W1,2026-01-15 14:00:13,,,E1_turn_on_alert_W1,,,96,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,97,E2_dim_alert_E1,2026-01-15 14:05:17,,,E2_dim_alert_E1,,,97,,,E1,E2,E1,,motion detected,,,,
+E1,sensor,98,motion_detected,2026-01-15 16:00:00,,,,motion_detected,,,98,E1,,,,,,,,E1_motion,1
+E1,sensor,98,plate_captured,2026-01-15 16:00:01,,,,plate_captured,,,98,E1,,,,,,,,E1_camera,BBB222
+E1,interaction,99,E1_turn_on_alert_E2,2026-01-15 16:00:06,,,E1_turn_on_alert_E2,,,99,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,99,E1_turn_on_alert_W1,2026-01-15 16:00:10,,,E1_turn_on_alert_W1,,,99,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,100,E2_dim_alert_E1,2026-01-15 16:05:11,,,E2_dim_alert_E1,,,100,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,100,dim,2026-01-15 16:05:12,,dim,,,100,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,101,motion_detected,2026-01-15 18:00:00,,,,motion_detected,,,101,E1,,,,,,,,E1_motion,1
+E1,sensor,101,plate_captured,2026-01-15 18:00:03,,,,plate_captured,,,101,E1,,,,,,,,E1_camera,BBB223
+E1,actuator,101,turn_on,2026-01-15 18:00:05,,turn_on,,,101,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,101,E1_turn_on_alert_E2,2026-01-15 18:00:06,,,E1_turn_on_alert_E2,,,101,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,101,E1_turn_on_alert_W1,2026-01-15 18:00:10,,,E1_turn_on_alert_W1,,,101,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,102,E2_dim_alert_E1,2026-01-15 18:05:15,,,E2_dim_alert_E1,,,102,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,102,dim,2026-01-15 18:05:16,,dim,,,102,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,103,motion_detected,2026-01-15 20:00:00,,,,motion_detected,,,103,E1,,,,,,,,E1_motion,1
+E1,sensor,103,plate_captured,2026-01-15 20:00:01,,,,plate_captured,,,103,E1,,,,,,,,E1_camera,BBB224
+E1,actuator,103,turn_on,2026-01-15 20:00:02,,turn_on,,,103,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,103,E1_turn_on_alert_W1,2026-01-15 20:00:05,,,E1_turn_on_alert_W1,,,103,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,104,E2_dim_alert_E1,2026-01-15 20:05:16,,,E2_dim_alert_E1,,,104,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,104,dim,2026-01-15 20:05:17,,dim,,,104,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,105,motion_detected,2026-01-15 22:00:00,,,,motion_detected,,,105,E1,,,,,,,,E1_motion,1
+E1,actuator,106,turn_on,2026-01-15 22:00:08,,turn_on,,,106,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,106,E1_turn_on_alert_E2,2026-01-15 22:00:12,,,E1_turn_on_alert_E2,,,106,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,106,E1_turn_on_alert_W1,2026-01-15 22:00:15,,,E1_turn_on_alert_W1,,,106,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,107,E2_dim_alert_E1,2026-01-15 22:05:19,,,E2_dim_alert_E1,,,107,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,107,dim,2026-01-15 22:05:20,,dim,,,107,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,108,motion_detected,2026-01-16 00:00:00,,,,motion_detected,,,108,E1,,,,,,,,E1_motion,1
+E1,sensor,108,plate_captured,2026-01-16 00:00:04,,,,plate_captured,,,108,E1,,,,,,,,E1_camera,BBB226
+E1,actuator,108,turn_on,2026-01-16 00:00:08,,turn_on,,,108,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,108,E1_turn_on_alert_E2,2026-01-16 00:00:11,,,E1_turn_on_alert_E2,,,108,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,108,E1_turn_on_alert_W1,2026-01-16 00:00:13,,,E1_turn_on_alert_W1,,,108,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,109,E2_dim_alert_E1,2026-01-16 00:05:10,,,E2_dim_alert_E1,,,109,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,109,dim,2026-01-16 00:05:12,,dim,,,109,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,110,motion_detected,2026-01-16 02:00:00,,,,motion_detected,,,110,E1,,,,,,,,E1_motion,1
+E1,sensor,110,plate_captured,2026-01-16 02:00:02,,,,plate_captured,,,110,E1,,,,,,,,E1_camera,BBB227
+E1,actuator,110,turn_on,2026-01-16 02:00:06,,turn_on,,,110,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,110,E1_turn_on_alert_E2,2026-01-16 02:00:08,,,E1_turn_on_alert_E2,,,110,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,110,E1_turn_on_alert_W1,2026-01-16 02:00:09,,,E1_turn_on_alert_W1,,,110,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,111,E2_dim_alert_E1,2026-01-16 02:05:20,,,E2_dim_alert_E1,,,111,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,111,dim,2026-01-16 02:05:21,,dim,,,111,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,112,motion_detected,2026-01-16 04:00:00,,,,motion_detected,,,112,E1,,,,,,,,E1_motion,1
+E1,sensor,112,plate_captured,2026-01-16 04:00:03,,,,plate_captured,,,112,E1,,,,,,,,E1_camera,BBB228
+E1,actuator,112,turn_on,2026-01-16 04:00:06,,turn_on,,,112,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,112,E1_turn_on_alert_E2,2026-01-16 04:00:09,,,E1_turn_on_alert_E2,,,112,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,112,E1_turn_on_alert_W1,2026-01-16 04:00:11,,,E1_turn_on_alert_W1,,,112,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,113,E2_dim_alert_E1,2026-01-16 04:05:11,,,E2_dim_alert_E1,,,113,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,113,dim,2026-01-16 04:05:14,,dim,,,113,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,114,motion_detected,2026-01-16 06:00:00,,,,motion_detected,,,114,E1,,,,,,,,E1_motion,1
+E1,sensor,114,plate_captured,2026-01-16 06:00:01,,,,plate_captured,,,114,E1,,,,,,,,E1_camera,BBB229
+E1,actuator,114,turn_on,2026-01-16 06:00:03,,turn_on,,,114,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,114,E1_turn_on_alert_E2,2026-01-16 06:00:07,,,E1_turn_on_alert_E2,,,114,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,115,E2_dim_alert_E1,2026-01-16 06:05:15,,,E2_dim_alert_E1,,,115,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,115,dim,2026-01-16 06:05:16,,dim,,,115,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,116,motion_detected,2026-01-16 08:00:00,,,,motion_detected,,,116,E1,,,,,,,,E1_motion,1
+E1,sensor,116,plate_captured,2026-01-16 08:00:03,,,,plate_captured,,,116,E1,,,,,,,,E1_camera,BBB230
+E1,actuator,116,turn_on,2026-01-16 08:00:07,,turn_on,,,116,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,116,E1_turn_on_alert_E2,2026-01-16 08:00:08,,,E1_turn_on_alert_E2,,,116,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,116,E1_turn_on_alert_W1,2026-01-16 08:00:10,,,E1_turn_on_alert_W1,,,116,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,117,E2_dim_alert_E1,2026-01-16 08:05:15,,,E2_dim_alert_E1,,,117,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,117,dim,2026-01-16 08:05:16,,dim,,,117,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,118,motion_detected,2026-01-16 10:00:00,,,,motion_detected,,,118,E1,,,,,,,,E1_motion,1
+E1,sensor,118,plate_captured,2026-01-16 10:00:03,,,,plate_captured,,,118,E1,,,,,,,,E1_camera,BBB231
+E1,actuator,118,turn_on,2026-01-16 10:00:07,,turn_on,,,118,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,118,E1_turn_on_alert_E2,2026-01-16 10:00:09,,,E1_turn_on_alert_E2,,,118,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,118,E1_turn_on_alert_W1,2026-01-16 10:00:11,,,E1_turn_on_alert_W1,,,118,,,E1,E1,W1,,motion detected,,,,
+E1,actuator,119,dim,2026-01-16 10:05:21,,dim,,,119,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,120,motion_detected,2026-01-16 12:00:00,,,,motion_detected,,,120,E1,,,,,,,,E1_motion,1
+E1,sensor,120,plate_captured,2026-01-16 12:00:02,,,,plate_captured,,,120,E1,,,,,,,,E1_camera,BBB232
+E1,actuator,120,turn_on,2026-01-16 12:00:04,,turn_on,,,120,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,120,E1_turn_on_alert_E2,2026-01-16 12:00:05,,,E1_turn_on_alert_E2,,,120,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,120,E1_turn_on_alert_W1,2026-01-16 12:00:08,,,E1_turn_on_alert_W1,,,120,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,121,E2_dim_alert_E1,2026-01-16 12:05:08,,,E2_dim_alert_E1,,,121,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,121,dim,2026-01-16 12:05:12,,dim,,,121,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,122,motion_detected,2026-01-16 14:00:00,,,,motion_detected,,,122,E1,,,,,,,,E1_motion,1
+E1,sensor,122,plate_captured,2026-01-16 14:00:04,,,,plate_captured,,,122,E1,,,,,,,,E1_camera,BBB233
+E1,actuator,122,turn_on,2026-01-16 14:00:06,,turn_on,,,122,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,122,E1_turn_on_alert_E2,2026-01-16 14:00:07,,,E1_turn_on_alert_E2,,,122,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,122,E1_turn_on_alert_W1,2026-01-16 14:00:09,,,E1_turn_on_alert_W1,,,122,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,123,E2_dim_alert_E1,2026-01-16 14:05:18,,,E2_dim_alert_E1,,,123,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,123,dim,2026-01-16 14:05:20,,dim,,,123,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,124,motion_detected,2026-01-16 16:00:00,,,,motion_detected,,,124,E1,,,,,,,,E1_motion,1
+E1,sensor,124,plate_captured,2026-01-16 16:00:03,,,,plate_captured,,,124,E1,,,,,,,,E1_camera,BBB234
+E1,actuator,124,turn_on,2026-01-16 16:00:07,,turn_on,,,124,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,124,E1_turn_on_alert_E2,2026-01-16 16:00:09,,,E1_turn_on_alert_E2,,,124,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,124,E1_turn_on_alert_W1,2026-01-16 16:00:13,,,E1_turn_on_alert_W1,,,124,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,125,E2_dim_alert_E1,2026-01-16 16:05:11,,,E2_dim_alert_E1,,,125,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,125,dim,2026-01-16 16:05:14,,dim,,,125,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,126,motion_detected,2026-01-16 18:00:00,,,,motion_detected,,,126,E1,,,,,,,,E1_motion,1
+E1,sensor,126,plate_captured,2026-01-16 18:00:01,,,,plate_captured,,,126,E1,,,,,,,,E1_camera,BBB235
+E1,actuator,126,turn_on,2026-01-16 18:00:03,,turn_on,,,126,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,127,E1_turn_on_alert_W1,2026-01-16 18:00:09,,,E1_turn_on_alert_W1,,,127,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,128,E2_dim_alert_E1,2026-01-16 18:05:14,,,E2_dim_alert_E1,,,128,,,E1,E2,E1,,motion detected,,,,
+E1,sensor,129,plate_captured,2026-01-16 20:00:02,,,,plate_captured,,,129,E1,,,,,,,,E1_camera,BBB236
+E1,actuator,129,turn_on,2026-01-16 20:00:04,,turn_on,,,129,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,129,E1_turn_on_alert_E2,2026-01-16 20:00:07,,,E1_turn_on_alert_E2,,,129,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,129,E1_turn_on_alert_W1,2026-01-16 20:00:08,,,E1_turn_on_alert_W1,,,129,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,130,E2_dim_alert_E1,2026-01-16 20:05:15,,,E2_dim_alert_E1,,,130,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,130,dim,2026-01-16 20:05:16,,dim,,,130,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,131,motion_detected,2026-01-16 22:00:00,,,,motion_detected,,,131,E1,,,,,,,,E1_motion,1
+E1,sensor,131,plate_captured,2026-01-16 22:00:04,,,,plate_captured,,,131,E1,,,,,,,,E1_camera,BBB237
+E1,actuator,131,turn_on,2026-01-16 22:00:06,,turn_on,,,131,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,131,E1_turn_on_alert_E2,2026-01-16 22:00:07,,,E1_turn_on_alert_E2,,,131,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,131,E1_turn_on_alert_W1,2026-01-16 22:00:08,,,E1_turn_on_alert_W1,,,131,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,132,E2_dim_alert_E1,2026-01-16 22:05:22,,,E2_dim_alert_E1,,,132,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,132,dim,2026-01-16 22:05:25,,dim,,,132,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,133,plate_captured,2026-01-17 00:00:03,,,,plate_captured,,,133,E1,,,,,,,,E1_camera,BBB238
+E1,actuator,133,turn_on,2026-01-17 00:00:05,,turn_on,,,133,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,133,E1_turn_on_alert_E2,2026-01-17 00:00:09,,,E1_turn_on_alert_E2,,,133,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,133,E1_turn_on_alert_W1,2026-01-17 00:00:10,,,E1_turn_on_alert_W1,,,133,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,134,E2_dim_alert_E1,2026-01-17 00:05:10,,,E2_dim_alert_E1,,,134,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,134,dim,2026-01-17 00:05:14,,dim,,,134,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,135,motion_detected,2026-01-17 02:00:00,,,,motion_detected,,,135,E1,,,,,,,,E1_motion,1
+E1,sensor,135,plate_captured,2026-01-17 02:00:02,,,,plate_captured,,,135,E1,,,,,,,,E1_camera,BBB239
+E1,actuator,135,turn_on,2026-01-17 02:00:03,,turn_on,,,135,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,135,E1_turn_on_alert_E2,2026-01-17 02:00:07,,,E1_turn_on_alert_E2,,,135,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,135,E1_turn_on_alert_W1,2026-01-17 02:00:09,,,E1_turn_on_alert_W1,,,135,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,136,E2_dim_alert_E1,2026-01-17 02:05:17,,,E2_dim_alert_E1,,,136,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,136,dim,2026-01-17 02:05:19,,dim,,,136,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,137,plate_captured,2026-01-17 04:00:04,,,,plate_captured,,,137,E1,,,,,,,,E1_camera,BBB240
+E1,actuator,137,turn_on,2026-01-17 04:00:06,,turn_on,,,137,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,137,E1_turn_on_alert_E2,2026-01-17 04:00:08,,,E1_turn_on_alert_E2,,,137,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,137,E1_turn_on_alert_W1,2026-01-17 04:00:09,,,E1_turn_on_alert_W1,,,137,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,138,E2_dim_alert_E1,2026-01-17 04:05:16,,,E2_dim_alert_E1,,,138,,,E1,E2,E1,,motion detected,,,,
+E1,sensor,139,motion_detected,2026-01-17 06:00:00,,,,motion_detected,,,139,E1,,,,,,,,E1_motion,1
+E1,actuator,140,turn_on,2026-01-17 06:00:07,,turn_on,,,140,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,140,E1_turn_on_alert_E2,2026-01-17 06:00:10,,,E1_turn_on_alert_E2,,,140,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,140,E1_turn_on_alert_W1,2026-01-17 06:00:11,,,E1_turn_on_alert_W1,,,140,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,141,E2_dim_alert_E1,2026-01-17 06:05:24,,,E2_dim_alert_E1,,,141,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,141,dim,2026-01-17 06:05:28,,dim,,,141,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,142,motion_detected,2026-01-17 08:00:00,,,,motion_detected,,,142,E1,,,,,,,,E1_motion,1
+E1,sensor,142,plate_captured,2026-01-17 08:00:04,,,,plate_captured,,,142,E1,,,,,,,,E1_camera,BBB242
+E1,actuator,142,turn_on,2026-01-17 08:00:06,,turn_on,,,142,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,142,E1_turn_on_alert_E2,2026-01-17 08:00:07,,,E1_turn_on_alert_E2,,,142,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,142,E1_turn_on_alert_W1,2026-01-17 08:00:11,,,E1_turn_on_alert_W1,,,142,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,143,E2_dim_alert_E1,2026-01-17 08:05:13,,,E2_dim_alert_E1,,,143,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,143,dim,2026-01-17 08:05:16,,dim,,,143,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,144,motion_detected,2026-01-17 10:00:00,,,,motion_detected,,,144,E1,,,,,,,,E1_motion,1
+E1,sensor,144,plate_captured,2026-01-17 10:00:04,,,,plate_captured,,,144,E1,,,,,,,,E1_camera,BBB243
+E1,actuator,144,turn_on,2026-01-17 10:00:06,,turn_on,,,144,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,144,E1_turn_on_alert_E2,2026-01-17 10:00:10,,,E1_turn_on_alert_E2,,,144,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,144,E1_turn_on_alert_W1,2026-01-17 10:00:12,,,E1_turn_on_alert_W1,,,144,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,145,E2_dim_alert_E1,2026-01-17 10:05:20,,,E2_dim_alert_E1,,,145,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,145,dim,2026-01-17 10:05:23,,dim,,,145,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,146,motion_detected,2026-01-17 12:00:00,,,,motion_detected,,,146,E1,,,,,,,,E1_motion,1
+E1,sensor,146,plate_captured,2026-01-17 12:00:04,,,,plate_captured,,,146,E1,,,,,,,,E1_camera,BBB244
+E1,actuator,146,turn_on,2026-01-17 12:00:05,,turn_on,,,146,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,146,E1_turn_on_alert_E2,2026-01-17 12:00:09,,,E1_turn_on_alert_E2,,,146,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,146,E1_turn_on_alert_W1,2026-01-17 12:00:10,,,E1_turn_on_alert_W1,,,146,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,147,E2_dim_alert_E1,2026-01-17 12:05:13,,,E2_dim_alert_E1,,,147,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,147,dim,2026-01-17 12:05:15,,dim,,,147,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,148,motion_detected,2026-01-17 14:00:00,,,,motion_detected,,,148,E1,,,,,,,,E1_motion,1
+E1,sensor,148,plate_captured,2026-01-17 14:00:03,,,,plate_captured,,,148,E1,,,,,,,,E1_camera,BBB245
+E1,interaction,149,E1_turn_on_alert_E2,2026-01-17 14:00:09,,,E1_turn_on_alert_E2,,,149,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,149,E1_turn_on_alert_W1,2026-01-17 14:00:11,,,E1_turn_on_alert_W1,,,149,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,150,E2_dim_alert_E1,2026-01-17 14:05:19,,,E2_dim_alert_E1,,,150,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,150,dim,2026-01-17 14:05:21,,dim,,,150,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,151,motion_detected,2026-01-17 16:00:00,,,,motion_detected,,,151,E1,,,,,,,,E1_motion,1
+E1,sensor,151,plate_captured,2026-01-17 16:00:01,,,,plate_captured,,,151,E1,,,,,,,,E1_camera,BBB246
+E1,actuator,151,turn_on,2026-01-17 16:00:02,,turn_on,,,151,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,151,E1_turn_on_alert_E2,2026-01-17 16:00:06,,,E1_turn_on_alert_E2,,,151,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,151,E1_turn_on_alert_W1,2026-01-17 16:00:07,,,E1_turn_on_alert_W1,,,151,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,152,E2_dim_alert_E1,2026-01-17 16:05:09,,,E2_dim_alert_E1,,,152,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,152,dim,2026-01-17 16:05:12,,dim,,,152,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,153,motion_detected,2026-01-17 18:00:00,,,,motion_detected,,,153,E1,,,,,,,,E1_motion,1
+E1,sensor,153,plate_captured,2026-01-17 18:00:02,,,,plate_captured,,,153,E1,,,,,,,,E1_camera,BBB247
+E1,actuator,153,turn_on,2026-01-17 18:00:03,,turn_on,,,153,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,153,E1_turn_on_alert_E2,2026-01-17 18:00:05,,,E1_turn_on_alert_E2,,,153,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,153,E1_turn_on_alert_W1,2026-01-17 18:00:08,,,E1_turn_on_alert_W1,,,153,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,154,E2_dim_alert_E1,2026-01-17 18:05:16,,,E2_dim_alert_E1,,,154,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,154,dim,2026-01-17 18:05:17,,dim,,,154,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,155,motion_detected,2026-01-17 20:00:00,,,,motion_detected,,,155,E1,,,,,,,,E1_motion,1
+E1,sensor,155,plate_captured,2026-01-17 20:00:03,,,,plate_captured,,,155,E1,,,,,,,,E1_camera,BBB248
+E1,actuator,155,turn_on,2026-01-17 20:00:06,,turn_on,,,155,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,155,E1_turn_on_alert_E2,2026-01-17 20:00:08,,,E1_turn_on_alert_E2,,,155,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,155,E1_turn_on_alert_W1,2026-01-17 20:00:10,,,E1_turn_on_alert_W1,,,155,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,156,E2_dim_alert_E1,2026-01-17 20:05:14,,,E2_dim_alert_E1,,,156,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,156,dim,2026-01-17 20:05:16,,dim,,,156,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,157,motion_detected,2026-01-17 22:00:00,,,,motion_detected,,,157,E1,,,,,,,,E1_motion,1
+E1,sensor,157,plate_captured,2026-01-17 22:00:03,,,,plate_captured,,,157,E1,,,,,,,,E1_camera,BBB249
+E1,actuator,157,turn_on,2026-01-17 22:00:05,,turn_on,,,157,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,157,E1_turn_on_alert_E2,2026-01-17 22:00:07,,,E1_turn_on_alert_E2,,,157,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,157,E1_turn_on_alert_W1,2026-01-17 22:00:10,,,E1_turn_on_alert_W1,,,157,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,158,E2_dim_alert_E1,2026-01-17 22:05:22,,,E2_dim_alert_E1,,,158,,,E1,E2,E1,,motion detected,,,,
+E1,actuator,158,dim,2026-01-17 22:05:26,,dim,,,158,,,E1,,,,E1_light,,dimmed,ON,,
+E1,sensor,159,plate_captured,2026-01-18 00:00:01,,,,plate_captured,,,159,E1,,,,,,,,E1_camera,BBB250
+E1,actuator,159,turn_on,2026-01-18 00:00:03,,turn_on,,,159,,,E1,,,,E1_light,,ON,dimmed,,
+E1,interaction,159,E1_turn_on_alert_E2,2026-01-18 00:00:05,,,E1_turn_on_alert_E2,,,159,,,E1,E1,E2,,motion detected,,,,
+E1,interaction,159,E1_turn_on_alert_W1,2026-01-18 00:00:07,,,E1_turn_on_alert_W1,,,159,,,E1,E1,W1,,motion detected,,,,
+E1,interaction,160,E2_dim_alert_E1,2026-01-18 00:05:17,,,E2_dim_alert_E1,,,160,,,E1,E2,E1,,motion detected,,,,

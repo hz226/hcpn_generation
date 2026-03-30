@@ -1,0 +1,5 @@
+val,d_s,m_i,a_s,a_i,s_post,c_s,device,a,sid,c,c_a,t,a_cmd,s_pre,id,d_p,type,c_i,d_t,d
+,E2,motion detected,,E2_dim_alert_W1,,,W1,E2_dim_alert_W1,,303,,2026-01-13 22:05:23,,,,W1,interaction,303.0,W1,
+,,,,,dimmed,,W1,dim,,303,303.0,2026-01-13 22:05:25,dim,ON,W1_light,,actuator,,,W1
+,E1,motion detected,,E1_turn_on_alert_W1,,,W1,E1_turn_on_alert_W1,,308,,2026-01-14 04:00:13,,,,W1,interaction,308.0,W1,
+,,,,,ON,,W1,turn_on,,308,308.0,2026-01-14 04:00:16,turn_on,dimmed,W1_light,,actuator,,,W1

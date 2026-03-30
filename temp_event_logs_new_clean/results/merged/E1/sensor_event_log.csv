@@ -1,0 +1,5 @@
+c_s,a_s,t,val,d,sid
+17.0,motion_detected,2026-01-13 18:08:18,1,E1,E1_motion
+17.0,plate_captured,2026-01-13 18:08:21,AAA117,E1,E1_camera
+100.0,motion_detected,2026-01-15 22:00:00,1,E1,E1_motion
+100.0,plate_captured,2026-01-15 22:00:02,BBB225,E1,E1_camera

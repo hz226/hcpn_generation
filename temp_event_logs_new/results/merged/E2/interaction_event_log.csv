@@ -1,0 +1,14 @@
+c_i,a_i,t,m_i,d_s,d_t,d_p
+216.0,E2_dim_alert_E1,2026-01-14 04:05:07,motion detected,E2,E1,E2
+216.0,E2_dim_alert_W1,2026-01-14 04:05:09,motion detected,E2,W1,E2
+241.0,E2_dim_alert_E1,2026-01-15 04:05:04,motion detected,E2,E1,E2
+245.0,E2_dim_alert_E1,2026-01-15 08:05:05,motion detected,E2,E1,E2
+255.0,E2_dim_alert_E1,2026-01-15 16:05:06,motion detected,E2,E1,E2
+270.0,E2_dim_alert_E1,2026-01-16 06:05:04,motion detected,E2,E1,E2
+270.0,E2_dim_alert_W1,2026-01-16 06:05:07,motion detected,E2,W1,E2
+277.0,E2_dim_alert_E1,2026-01-16 12:05:04,motion detected,E2,E1,E2
+277.0,E2_dim_alert_W1,2026-01-16 12:05:07,motion detected,E2,W1,E2
+292.0,E2_dim_alert_E1,2026-01-17 02:05:10,motion detected,E2,E1,E2
+292.0,E2_dim_alert_W1,2026-01-17 02:05:11,motion detected,E2,W1,E2
+303.0,E2_dim_alert_E1,2026-01-17 12:05:09,motion detected,E2,E1,E2
+303.0,E2_dim_alert_W1,2026-01-17 12:05:12,motion detected,E2,W1,E2

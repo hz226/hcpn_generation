@@ -1,0 +1,4 @@
+c_i,a_i,t,m_i,d_s,d_t,d_p
+100.0,E1_turn_on_alert_W1,2026-01-15 22:00:07,motion detected,E1,W1,E1
+100.0,E1_turn_on_alert_E2,2026-01-15 22:00:10,motion detected,E1,E2,E1
+109.0,E2_dim_alert_E1,2026-01-16 06:05:16,motion detected,E2,E1,E1

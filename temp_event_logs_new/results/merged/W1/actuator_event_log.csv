@@ -1,0 +1,5 @@
+c_a,a_cmd,t,s_pre,s_post,d,id
+320.0,dim,2026-01-13 22:05:16,ON,dimmed,W1,W1_light
+323.0,turn_on,2026-01-14 02:00:16,dimmed,ON,W1,W1_light
+333.0,turn_on,2026-01-14 12:00:18,dimmed,ON,W1,W1_light
+384.0,dim,2026-01-16 14:05:14,ON,dimmed,W1,W1_light

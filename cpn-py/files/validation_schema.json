@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "colorSets": {
+      "description": "A list of color set definitions. Each definition is a single string that must:\n\n1. Begin with the keyword 'colset'.\n2. Follow with a name for the color set (e.g., 'colset MySet = int;').\n3. Include an assignment '=' to specify the type of the color set.\n4. End with a semicolon (';').\n\nExamples of valid color set definitions:\n- \"colset IntSet = int;\"\n- \"colset RealValues = real;\"\n- \"colset ColorNames = { 'red', 'green', 'blue' };\" (an enumerated color set)\n- \"colset TimedInts = int timed;\" (a timed color set)\n- \"colset PairSet = product(IntSet, ColorNames);\" (a product of two previously defined color sets)\n\nSupported base types:\n- \"int\" for an integer color set.\n- \"real\" for a floating-point (real) color set.\n- \"string\" for a string color set.\n\nAdditionally, enumerated sets of values (e.g. { 'red', 'green', ... }) and products of two defined color sets using \"product(<ColorSet1>, <ColorSet2>)\" are supported.\n\nThe keyword \"timed\" can be appended to indicate that tokens of that color set carry a timestamp.\n\nAll color set references in other definitions must be previously defined in this list, or defined earlier within the same list.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "places": {
+      "description": "A list describing the places in the Petri net. Each place references a color set defined previously.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "A unique identifier for the place.",
+            "type": "string"
+          },
+          "colorSet": {
+            "description": "The name of a previously defined color set that applies to this place.",
+            "type": "string"
+          }
+        },
+        "required": ["name", "colorSet"]
+      }
+    },
+    "transitions": {
+      "description": "A list describing the transitions in the Petri net. Each transition may have a guard, variables, a delay, and incoming/outgoing arcs.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "A unique identifier for the transition.",
+            "type": "string"
+          },
+          "guard": {
+            "description": "An optional guard condition as a Python expression (string). If provided, the transition only fires if this evaluates to True.",
+            "type": "string"
+          },
+          "variables": {
+            "description": "A list of variable names (strings) that can be used within guard or arc expressions.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "transitionDelay": {
+            "description": "An optional numeric delay added whenever this transition fires. May be an integer or a floating-point value.",
+            "type": "number",
+            "default": 0
+          },
+          "inArcs": {
+            "description": "An array of input arcs from places to this transition. Each arc specifies the source place and the expression that determines which tokens to consume.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "place": {
+                  "description": "The name of the place from which tokens are drawn.",
+                  "type": "string"
+                },
+                "expression": {
+                  "description": "A Python expression (string) that, when evaluated, yields the tokens to consume from the source place.",
+                  "type": "string"
+                }
+              },
+              "required": ["place", "expression"]
+            }
+          },
+          "outArcs": {
+            "description": "An array of output arcs from this transition to places. Each arc specifies the target place and the expression that generates produced tokens. The expression may contain '@+<number>' to add an additional time delay for produced tokens.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "place": {
+                  "description": "The name of the place to which tokens are added.",
+                  "type": "string"
+                },
+                "expression": {
+                  "description": "A Python expression (string) that, when evaluated, yields the tokens to produce at the target place. May include a '@+<number>' segment to specify an extra delay on token timestamps.",
+                  "type": "string"
+                }
+              },
+              "required": ["place", "expression"]
+            }
+          }
+        },
+        "required": ["name", "inArcs", "outArcs"]
+      }
+    },
+    "initialMarking": {
+      "description": "An object representing the initial state of each place in the Petri net. Keys correspond to place names, and values define the tokens initially present in that place.",
+      "type": "object",
+      "patternProperties": {
+        "^[A-Za-z_][A-Za-z0-9_]*$": {
+          "type": "object",
+          "properties": {
+            "tokens": {
+              "description": "A list of initial tokens for the place. Each token can be an integer, real number, string, or tuple (depending on the defined color sets).",
+              "type": "array",
+              "items": {}
+            },
+            "timestamps": {
+              "description": "An optional list of timestamps for each token in 'tokens'. If not provided, all tokens default to a timestamp of 0. If provided, it must match the length of 'tokens'. These timestamps can be integers or real numbers.",
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "required": ["tokens"]
+        }
+      }
+    },
+    "evaluationContext": {
+      "description": "Either null or a path (string) to a Python file containing user-defined functions and variables that can be used in guard and arc expressions. If null, no additional context is loaded.",
+      "type": ["string", "null"]
+    }
+  },
+  "required": ["places", "transitions", "initialMarking"]
+}

@@ -1,0 +1,30 @@
+device,d_s,id,m_i,d_t,sid,s_pre,type,a_cmd,d,s_post,a,c_i,a_i,c_s,t,c_a,val,d_p,c,a_s
+E1,,,,,E1_motion,,sensor,,E1,,motion_detected,,,11.0,2026-01-13 18:04:56,,1,,11,motion_detected
+E1,,,,,E1_camera,,sensor,,E1,,plate_captured,,,11.0,2026-01-13 18:04:58,,AAA110,,11,plate_captured
+E1,,,,,E1_motion,,sensor,,E1,,motion_detected,,,63.0,2026-01-14 08:00:00,,1,,63,motion_detected
+E1,,,,,E1_camera,,sensor,,E1,,plate_captured,,,63.0,2026-01-14 08:00:01,,BBB206,,63,plate_captured
+E1,,E1_light,,,,dimmed,actuator,turn_on,E1,ON,turn_on,,,,2026-01-14 08:00:05,63.0,,,63,
+E1,,,,,E1_motion,,sensor,,E1,,motion_detected,,,89.0,2026-01-15 08:00:00,,1,,89,motion_detected
+E1,,,,,E1_camera,,sensor,,E1,,plate_captured,,,89.0,2026-01-15 08:00:02,,BBB218,,89,plate_captured
+E1,,E1_light,,,,dimmed,actuator,turn_on,E1,ON,turn_on,,,,2026-01-15 08:00:04,89.0,,,89,
+E1,E1,,motion detected,E2,,,interaction,,,,E1_turn_on_alert_E2,89.0,E1_turn_on_alert_E2,,2026-01-15 08:00:06,,,E1,89,
+E1,E1,,motion detected,E2,,,interaction,,,,E1_turn_on_alert_E2,92.0,E1_turn_on_alert_E2,,2026-01-15 10:00:09,,,E1,92,
+E1,E1,,motion detected,W1,,,interaction,,,,E1_turn_on_alert_W1,92.0,E1_turn_on_alert_W1,,2026-01-15 10:00:13,,,E1,92,
+E1,,,,,E1_motion,,sensor,,E1,,motion_detected,,,101.0,2026-01-15 18:00:00,,1,,101,motion_detected
+E1,,,,,E1_camera,,sensor,,E1,,plate_captured,,,101.0,2026-01-15 18:00:03,,BBB223,,101,plate_captured
+E1,,E1_light,,,,dimmed,actuator,turn_on,E1,ON,turn_on,,,,2026-01-15 18:00:05,101.0,,,101,
+E1,E1,,motion detected,E2,,,interaction,,,,E1_turn_on_alert_E2,101.0,E1_turn_on_alert_E2,,2026-01-15 18:00:06,,,E1,101,
+E1,E1,,motion detected,W1,,,interaction,,,,E1_turn_on_alert_W1,101.0,E1_turn_on_alert_W1,,2026-01-15 18:00:10,,,E1,101,
+E1,,,,,E1_motion,,sensor,,E1,,motion_detected,,,103.0,2026-01-15 20:00:00,,1,,103,motion_detected
+E1,,,,,E1_camera,,sensor,,E1,,plate_captured,,,103.0,2026-01-15 20:00:01,,BBB224,,103,plate_captured
+E1,,E1_light,,,,dimmed,actuator,turn_on,E1,ON,turn_on,,,,2026-01-15 20:00:02,103.0,,,103,
+E1,E1,,motion detected,W1,,,interaction,,,,E1_turn_on_alert_W1,103.0,E1_turn_on_alert_W1,,2026-01-15 20:00:05,,,E1,103,
+E1,,,,,E1_motion,,sensor,,E1,,motion_detected,,,105.0,2026-01-15 22:00:00,,1,,105,motion_detected
+E1,E1,,motion detected,W1,,,interaction,,,,E1_turn_on_alert_W1,127.0,E1_turn_on_alert_W1,,2026-01-16 18:00:09,,,E1,127,
+E1,,,,,E1_camera,,sensor,,E1,,plate_captured,,,129.0,2026-01-16 20:00:02,,BBB236,,129,plate_captured
+E1,,E1_light,,,,dimmed,actuator,turn_on,E1,ON,turn_on,,,,2026-01-16 20:00:04,129.0,,,129,
+E1,E1,,motion detected,E2,,,interaction,,,,E1_turn_on_alert_E2,129.0,E1_turn_on_alert_E2,,2026-01-16 20:00:07,,,E1,129,
+E1,E1,,motion detected,W1,,,interaction,,,,E1_turn_on_alert_W1,129.0,E1_turn_on_alert_W1,,2026-01-16 20:00:08,,,E1,129,
+E1,,E1_light,,,,dimmed,actuator,turn_on,E1,ON,turn_on,,,,2026-01-17 06:00:07,140.0,,,140,
+E1,E1,,motion detected,E2,,,interaction,,,,E1_turn_on_alert_E2,140.0,E1_turn_on_alert_E2,,2026-01-17 06:00:10,,,E1,140,
+E1,E1,,motion detected,W1,,,interaction,,,,E1_turn_on_alert_W1,140.0,E1_turn_on_alert_W1,,2026-01-17 06:00:11,,,E1,140,

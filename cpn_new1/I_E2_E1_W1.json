@@ -1,0 +1,109 @@
+{
+  "colorSets": [
+    "colset UNIT = unit;"
+  ],
+  "places": [
+    {
+      "name": "p_4",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "p_5",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "sink",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "source",
+      "colorSet": "UNIT"
+    },
+    {
+      "name": "p_3",
+      "colorSet": "UNIT"
+    }
+  ],
+  "transitions": [
+    {
+      "name": "E1",
+      "inArcs": [
+        {
+          "place": "p_4",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "sink",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "E2",
+      "inArcs": [
+        {
+          "place": "source",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "W1",
+      "inArcs": [
+        {
+          "place": "p_5",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "sink",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "E2_dim_alert_E1",
+      "inArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_4",
+          "expression": ""
+        }
+      ]
+    },
+    {
+      "name": "E2_dim_alert_W1",
+      "inArcs": [
+        {
+          "place": "p_3",
+          "expression": ""
+        }
+      ],
+      "outArcs": [
+        {
+          "place": "p_5",
+          "expression": ""
+        }
+      ]
+    }
+  ],
+  "initialMarking": {
+    "source": {
+      "tokens": []
+    }
+  }
+}

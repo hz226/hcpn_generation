@@ -1,0 +1,10 @@
+val,d_s,m_i,a_s,a_i,s_post,c_s,device,a,sid,c,c_a,t,a_cmd,s_pre,id,d_p,type,c_i,d_t,d
+1,,,motion_detected,,,17.0,E1,motion_detected,E1_motion,17,,2026-01-13 18:08:18,,,,,sensor,,,E1
+AAA117,,,plate_captured,,,17.0,E1,plate_captured,E1_camera,17,,2026-01-13 18:08:21,,,,,sensor,,,E1
+1,,,motion_detected,,,100.0,E1,motion_detected,E1_motion,100,,2026-01-15 22:00:00,,,,,sensor,,,E1
+BBB225,,,plate_captured,,,100.0,E1,plate_captured,E1_camera,100,,2026-01-15 22:00:02,,,,,sensor,,,E1
+,,,,,ON,,E1,turn_on,,100,100.0,2026-01-15 22:00:04,turn_on,dimmed,E1_light,,actuator,,,E1
+,E1,motion detected,,E1_turn_on_alert_W1,,,E1,E1_turn_on_alert_W1,,100,,2026-01-15 22:00:07,,,,E1,interaction,100.0,W1,
+,E1,motion detected,,E1_turn_on_alert_E2,,,E1,E1_turn_on_alert_E2,,100,,2026-01-15 22:00:10,,,,E1,interaction,100.0,E2,
+,E2,motion detected,,E2_dim_alert_E1,,,E1,E2_dim_alert_E1,,109,,2026-01-16 06:05:16,,,,E1,interaction,109.0,E1,
+,,,,,dimmed,,E1,dim,,109,109.0,2026-01-16 06:05:18,dim,ON,E1_light,,actuator,,,E1

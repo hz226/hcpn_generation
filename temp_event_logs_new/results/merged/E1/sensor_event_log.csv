@@ -1,0 +1,13 @@
+c_s,a_s,t,val,d,sid
+11.0,motion_detected,2026-01-13 18:04:56,1,E1,E1_motion
+11.0,plate_captured,2026-01-13 18:04:58,AAA110,E1,E1_camera
+63.0,motion_detected,2026-01-14 08:00:00,1,E1,E1_motion
+63.0,plate_captured,2026-01-14 08:00:01,BBB206,E1,E1_camera
+89.0,motion_detected,2026-01-15 08:00:00,1,E1,E1_motion
+89.0,plate_captured,2026-01-15 08:00:02,BBB218,E1,E1_camera
+101.0,motion_detected,2026-01-15 18:00:00,1,E1,E1_motion
+101.0,plate_captured,2026-01-15 18:00:03,BBB223,E1,E1_camera
+103.0,motion_detected,2026-01-15 20:00:00,1,E1,E1_motion
+103.0,plate_captured,2026-01-15 20:00:01,BBB224,E1,E1_camera
+105.0,motion_detected,2026-01-15 22:00:00,1,E1,E1_motion
+129.0,plate_captured,2026-01-16 20:00:02,BBB236,E1,E1_camera
