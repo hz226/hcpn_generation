@@ -30,18 +30,13 @@ Run the Python scripts **in the following order**:
    - Converts event logs into **HCPNs**.  
 
 3. **`Conformance_checking.py`**  
-   - Performs **conformance checking** on the generated HCPNs and visualizes the results.  
+   - Performs **conformance checking** on the generated HCPNs and visualises the results.  
 
 ---
 
 ## Example Output
 
-- `\cpn_new1\_I_E1_E2_W1.cpn` – Example of a generated HCPN.  
-
----
-
-## Optional Notes
-
-- It's recommended to include a `requirements.txt` for dependencies (`cpn-py`, `pm4py`, etc.)  
-- Consider adding a **folder structure diagram** or screenshots of HCPNs for clarity  
-- For large logs, execution may take some time; running on smaller example logs is suggested for initial testing
+- `\cpn_new1\_I_E1_E2_W1.cpn` – Example of a generated HCPN.
+- This example corresponds to the **lighting system on a bridge road**.
+- **E1** and **E2** refer to controller light poles at the **entrance** and **exit**, respectively.
+- **W1** refers to **worker light poles**.
